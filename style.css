@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #4b7ef9;
+}
+
+body {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 30px;
+  width: 100%;
+  max-width: 600px; 
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.add-wrapper {
+  display: flex;
+}
+
+.header-wrapper {
+  margin: 20px;
+}
+
+.search-wrapper {
+  display: flex;
+  margin-top: 15px;
+}
+
+.left-group-card-todolist {
+  display: flex;
+}
+
+.form-control {
+  padding: 10px;
+  width: 100%;
+  height: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border: 1px solid #4b7ef9;
+}
+
+.btn {
+  width: 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-edit,
+.button-search,
+.button-add {
+  color: white;
+  background-color: #4b7ef9;
+}
+
+.button-delete {
+  margin-left: 10px;
+  color: white;
+  background-color: crimson;
+}
+
+.button-edit,
+.button-delete {
+  width: 100% !important;
+  padding: 15px;
+}
+
+#container-todolist {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.card-todolist {
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  border: 1px solid gainsboro;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.card-todolist p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.right-group-card-todolist {
+  display: flex;
+}
